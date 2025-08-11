@@ -1,7 +1,8 @@
 
 # ML-Based IMU Orientation Estimator
 
-This project implements a **machine learning-based orientation estimation system** using data from an **Inertial Measurement Unit (IMU)** in real-time. 
+This project demonstrates **orientation classification** (Pitch, Roll, Yaw) using a simple feedforward neural network in TensorFlow/Keras.  
+It uses gyroscope sensor data stored in CSV files and trains a model to classify the orientation into one of three classes.
 The system uses a trained ML model to process sensor readings (accelerometer, gyroscope, and magnetometer) and estimate the current orientation.
 
 ---
